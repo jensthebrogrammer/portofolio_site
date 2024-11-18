@@ -40,7 +40,7 @@ export default function Homepage() {
       </div>
     </div>
 
-    <Link to='/testing_bootstrap'><button>go to bootstrap</button></Link>
+    {/*<Link to='/testing_bootstrap'><button>go to bootstrap</button></Link>*/}
   </>
   );
 }

@@ -51,10 +51,20 @@ html{
   height: 300px;
 }
 
-.small{
-  max-width: 1000px;
-}
-
 body{
   font-family: Poppins;
+}
+
+.carousel-inner {
+  max-height: 700px; /* Adjust based on your needs */
+  overflow: hidden;
+}
+
+.carousel-item {
+  padding: 2rem;
+}
+
+.widht-slides{
+  max-width: 800px;
+  height: 400px;
 }
