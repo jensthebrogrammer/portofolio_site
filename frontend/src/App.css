@@ -37,7 +37,8 @@ html{
 }
 
 .nav-bar-element{
-  height: 40px;
+  max-height: 60px;
+  display: flex;
 }
 
 .card{
