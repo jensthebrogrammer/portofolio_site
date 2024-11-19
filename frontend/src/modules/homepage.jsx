@@ -5,6 +5,7 @@ import Navbar from "./navbar";
 import { Test } from "./testing";
 import MijnProjecten from "./cards";
 import Info from "./info";
+import SoftwareKennis from "./softwareKennis";
 
 
 export default function Homepage() {
@@ -34,6 +35,7 @@ export default function Homepage() {
             <div className="scrollable-container">
               <MijnProjecten />
               <Info />
+              <SoftwareKennis />
             </div>
           </div>
         </div>

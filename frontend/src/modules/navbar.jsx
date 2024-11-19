@@ -11,6 +11,12 @@ export default function Navbar() {
           Mijn projecten
         </Link>
       </div>
+
+      <div className="container nav-bar-element align-items">
+        <Link smooth to="#info" className="nav-link text-center pt-1">
+          Over mij
+        </Link>
+      </div>
     </nav>
   </>
   )
