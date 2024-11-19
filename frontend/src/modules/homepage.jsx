@@ -6,6 +6,7 @@ import { Test } from "./testing";
 import MijnProjecten from "./cards";
 import Info from "./info";
 import SoftwareKennis from "./softwareKennis";
+import HuidigProject from "./huidigProject";
 
 
 export default function Homepage() {
@@ -36,6 +37,7 @@ export default function Homepage() {
               <MijnProjecten />
               <Info />
               <SoftwareKennis />
+              <HuidigProject />
             </div>
           </div>
         </div>

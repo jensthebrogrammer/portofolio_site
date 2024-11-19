@@ -74,16 +74,12 @@ body{
   background-image: linear-gradient(teal, purple);
 }
 
-.popover-button{
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  text-align: center;
-  display: flex; /* Use flexbox for centering */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  padding: 0; /* Remove default padding */
-  font-size: 16px; /* Adjust size for visibility */
-  line-height: 1; /* Prevent unnecessary vertical spacing */
-  font-weight: bold; /* Make the "!" more prominent */
+.huidig_project{
+  width: 1200px;
+  height: 600px;
+  margin-top: 100px;
+}
+
+.img-huidig-project{
+  height: 600px;
 }
