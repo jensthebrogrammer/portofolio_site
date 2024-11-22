@@ -18,9 +18,15 @@ export default function Navbar() {
         </Link>
       </div>
 
-      <div className="container nav-bar-element align-items-center justify-content-center">
+      <div className="container nav-bar-element align-items-center justify-content-center p-3">
         <Link smooth to="#softwareKennis" className="nav-link text-center">
           Software kennis
+        </Link>
+      </div>
+
+      <div className="container nav-bar-element align-items-center justify-content-center p-3">
+        <Link smooth to="#huidigProject" className="nav-link text-center">
+          Huidig project
         </Link>
       </div>
     </nav>
