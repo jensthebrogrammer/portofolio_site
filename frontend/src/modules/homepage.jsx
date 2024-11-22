@@ -15,8 +15,8 @@ export default function Homepage() {
     <div className="container-fluid full_con bg-dark bg-gradient p-0">
       {/*de bovenste bar word de introductie*/}
       <div className="row justify-content-start bg-dark">
-        <div className="col-2 text-center">
-          <p>image</p>
+        <div className="col-2 align-item-center justify-content-center">
+          <img src="/src/images/my_picture.jpg" className="my-picture" />
         </div>
 
         <div className="col text-center">
