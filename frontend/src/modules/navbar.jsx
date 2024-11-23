@@ -1,35 +1,34 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link"; 
 
-
 export default function Navbar() {
   return (
-  <>
-    <nav className="nav-bar p-0 text-center">
-      <div className="container nav-bar-element align-items-center justify-content-center p-3">
+    <>
+      <nav className="nav-bar p-0 text-center">
         <Link smooth to="#projecten" className="nav-link text-center">
-          Mijn projecten
+          <div className="container nav-bar-element align-items-center justify-content-center p-3">
+            Mijn projecten
+          </div>
         </Link>
-      </div>
 
-      <div className="container nav-bar-element align-items-center justify-content-center p-3">
         <Link smooth to="#info" className="nav-link text-center">
-          Over mij
+          <div className="container nav-bar-element align-items-center justify-content-center p-3">
+            Over mij
+          </div>
         </Link>
-      </div>
 
-      <div className="container nav-bar-element align-items-center justify-content-center p-3">
         <Link smooth to="#softwareKennis" className="nav-link text-center">
-          Software kennis
+          <div className="container nav-bar-element align-items-center justify-content-center p-3">
+            Software kennis
+          </div>
         </Link>
-      </div>
-
-      <div className="container nav-bar-element align-items-center justify-content-center p-3">
+        
         <Link smooth to="#huidigProject" className="nav-link text-center">
-          Huidig project
+          <div className="container nav-bar-element align-items-center justify-content-center p-3">
+            Huidig project
+          </div>
         </Link>
-      </div>
-    </nav>
-  </>
-  )
+      </nav>
+    </>
+  );
 }

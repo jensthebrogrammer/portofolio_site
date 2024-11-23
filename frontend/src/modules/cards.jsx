@@ -11,7 +11,7 @@ export default function MijnProjecten() {
             <div className="card bg-dark">
               <div className="row">
                 <div className="col-5">
-                  <img src='\src\images\printscreen_gorillas.png' class="img-fluid rounded-start img-card" />
+                  <img src='\src\images\printscreen_gorillas.png' className="img-fluid rounded-start img-card" />
                 </div>
 
                 <div className="col-7">
@@ -30,7 +30,7 @@ export default function MijnProjecten() {
             <div className="card bg-dark">
               <div className="row">
                 <div className="col-5">
-                  <img src='\src\images\screenshot_school_agenda.png' class="img-fluid rounded-start img-card" />
+                  <img src='\src\images\screenshot_school_agenda.png' className="img-fluid rounded-start img-card" />
                 </div>
 
                 <div className="col-7">
