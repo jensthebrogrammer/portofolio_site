@@ -7,20 +7,47 @@ import MijnProjecten from "./cards";
 import Info from "./info";
 import SoftwareKennis from "./softwareKennis";
 import HuidigProject from "./huidigProject";
+import { useState } from "react";
 
 
 export default function Homepage() {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
+  const closeModal = () => {
+    setIsModalOpen(false)
+  }
+
+  const openCreateModal = () => {
+    if (!isModalOpen) setIsModalOpen(true)
+    console.log("test")
+  }
+
+
+
   return (
   <>
     <div className="container-fluid full_con bg-dark bg-gradient p-0">
       {/*de bovenste bar word de introductie*/}
       <div className="row justify-content-start bg-dark">
         <div className="col-1 align-item-center justify-content-center d-flex">
-          <img src="/src/images/my_picture.jpg" className="my-picture" />
+          <button className="img-button" onClick={openCreateModal}>
+            <img src="/src/images/my_picture.jpg" className="my-picture" />
+          </button>
         </div>
 
         <div className="col text-center">
           <h1>Jens Laurijssen</h1>
+          {isModalOpen && <div className="modal">
+            <div className="row">
+              <div className="col">
+                <img src="/src/images/my_picture.jpg" className="my-picture-modal" />
+              </div>
+
+              <div className="col-2">
+                <button className="closing-button-modal" onClick={closeModal}>&times;</button> 
+              </div>
+            </div> 
+          </div>}
         </div>
       </div>
 

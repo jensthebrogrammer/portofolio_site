@@ -92,3 +92,35 @@ body{
   border-radius: 50%;
   border: 2px solid aquamarine;
 }
+
+.modal {
+  position: fixed;
+  background-color: white;
+  display: block;
+  background-color: transparent;
+  height: 500px;
+  width: 500px;
+  margin-left: 40%;
+  margin-top: 8%;
+  scrollbar-width: none;
+}
+
+.img-button{
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+}
+
+.my-picture-modal{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid aquamarine;
+}
+
+.closing-button-modal{
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 3rem;
+}
