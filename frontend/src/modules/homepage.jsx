@@ -11,15 +11,14 @@ import { useState } from "react";
 
 
 export default function Homepage() {
-  const [isModalOpen, setIsModalOpen] = useState(false)
+  const [isModalOpen1, setIsModalOpen1] = useState(false)
 
-  const closeModal = () => {
-    setIsModalOpen(false)
+  const closeModal = (modal) => {
+    if (modal === 1) setIsModalOpen1(false)
   }
 
-  const openCreateModal = () => {
-    if (!isModalOpen) setIsModalOpen(true)
-    console.log("test")
+  const openCreateModal = (modal) => {
+    if (!isModalOpen1 && modal === 1) setIsModalOpen1(true)
   }
 
 
@@ -29,22 +28,28 @@ export default function Homepage() {
     <div className="container-fluid full_con bg-dark bg-gradient p-0">
       {/*de bovenste bar word de introductie*/}
       <div className="row justify-content-start bg-dark">
-        <div className="col-1 align-item-center justify-content-center d-flex">
-          <button className="img-button" onClick={openCreateModal}>
+        <div className="col-1 justify-content-center d-none d-xl-flex">
+          <button className="img-button" onClick={() => {openCreateModal(1)}}>
             <img src="/src/images/my_picture.jpg" className="my-picture" />
+          </button>
+        </div>
+
+        <div className="col-1 justify-content-center d-flex d-xl-none">
+          <button className="btn-navbar-toggler">
+            <img src="/src/images/nav-bar-toggler.png" alt="" />
           </button>
         </div>
 
         <div className="col text-center">
           <h1>Jens Laurijssen</h1>
-          {isModalOpen && <div className="modal">
+          {isModalOpen1 && <div className="modal">
             <div className="row">
               <div className="col">
                 <img src="/src/images/my_picture.jpg" className="my-picture-modal" />
               </div>
 
               <div className="col-2">
-                <button className="closing-button-modal" onClick={closeModal}>&times;</button> 
+                <button className="closing-button-modal" onClick={() => {closeModal(1)}}>&times;</button> 
               </div>
             </div> 
           </div>}
