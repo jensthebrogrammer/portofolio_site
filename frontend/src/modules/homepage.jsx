@@ -53,14 +53,14 @@ export default function Homepage() {
 
       {/*pagina met verticale navbar*/}
       <div className="container-fluid">
-        <div className="row justify-content-start">
-          <div className="col-1 bg-dark text-center p-0">
+        <div className="row justify-content-center">
+          <div className="col-1 d-none d-xl-block bg-dark text-center p-0">
             <section id='nav-bar'>
               <Navbar />
             </section>
           </div>
-          <div className="col p-0">
-            <div className="scrollable-container">
+          <div className="col-lg-11 col-md-12 p-0">
+            <div className="container-xl scrollable-container">
               <MijnProjecten />
               <Info />
               <SoftwareKennis />
