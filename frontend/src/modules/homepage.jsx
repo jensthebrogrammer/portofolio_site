@@ -8,17 +8,37 @@ import Info from "./info";
 import SoftwareKennis from "./softwareKennis";
 import HuidigProject from "./huidigProject";
 import { useState } from "react";
+import NavbarSmall from "./navbar-small";
 
 
 export default function Homepage() {
   const [isModalOpen1, setIsModalOpen1] = useState(false)
+  const [isModalOpen2, setIsModalOpen2] = useState(false)
 
   const closeModal = (modal) => {
     if (modal === 1) setIsModalOpen1(false)
+    if (modal === 2) setIsModalOpen2(false)
   }
 
   const openCreateModal = (modal) => {
     if (!isModalOpen1 && modal === 1) setIsModalOpen1(true)
+    if (!isModalOpen2 && modal === 2) setIsModalOpen2(true)
+  }
+
+  const toggleModal = (modal) => {
+    if (modal === 1) {
+      if (isModalOpen1) {
+        closeModal(1)
+      } else {
+        openCreateModal(1)
+      }
+    } else {
+      if (isModalOpen2) {
+        closeModal(2)
+      } else {
+        openCreateModal(2)
+      }
+    }
   }
 
 
@@ -35,7 +55,8 @@ export default function Homepage() {
         </div>
 
         <div className="col-1 justify-content-center d-flex d-xl-none">
-          <button className="btn-navbar-toggler">
+          <button className="btn-navbar-toggler"
+          onClick={() => {toggleModal(2)}}>
             <img src="/src/images/nav-bar-toggler.png" alt="" />
           </button>
         </div>
@@ -53,6 +74,8 @@ export default function Homepage() {
               </div>
             </div> 
           </div>}
+
+          {isModalOpen2 && <NavbarSmall />}
         </div>
       </div>
 

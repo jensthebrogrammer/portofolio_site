@@ -14,8 +14,8 @@ export default function SoftwareKennis() {
         <Bar name={"Bootstrap"} size={"3"}/>
         <Bar name={"Html"} size={"5"}/>
         <Bar name={"Css"} size={"2"}/>
-        <Bar name={"C++ (arduino)"} size={"6"}/>
-        <Bar name={"Microsoft Office"} size={"5"}/>
+        <Bar name={"C++"} size={"6"}/>
+        <Bar name={"Microsoft"} size={"5"}/>
         <Bar name={"Github"} size={"3"}/>
         <Bar name={"Notion"} size={"4"}/>
 
