@@ -87,7 +87,7 @@ export default function Homepage() {
               <Navbar />
             </section>
           </div>
-          <div className="col-lg-11 col-md-12 p-0">
+          <div className="col-lg-11 col-md-12 p-0 m-0">
             <div className="container-xl scrollable-container">
               <MijnProjecten />
               <Info />
