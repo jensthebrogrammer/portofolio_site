@@ -19,7 +19,10 @@ export default function MijnProjecten() {
                     <h3 className="card-title">Gorillas</h3>
                     <p className="card-text">een klasiek spel geschreven in pyhton met als framework pygame.</p>
                     <p className="card-text pb-3">de code is opgebouwd in drie lagen. de BLL, de presentatie layer en de main layer</p>
-                    <button className="btn btn-outline-primary">ga naar</button>
+                    <a href="https://github.com/jensthebrogrammer/gorillas-tisp"
+                    className="d-none d-sm-block">
+                      <button className="btn btn-outline-primary">ga naar</button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -38,7 +41,11 @@ export default function MijnProjecten() {
                     <h3 className="card-title">School agenda</h3>
                     <p className="card-text">Dit is een clone van de klassieke school agenda van Smartschool.</p>
                     <p className="card-text pb-3">De site is volledig functioneel. Je kan lessen en taken toevoegen en kleuren geven aan bepaalde lessen.</p>
-                    <button className="btn btn-outline-primary">ga naar</button>
+
+                    <a href="https://github.com/jensthebrogrammer/school_agenda"
+                    className="d-none d-sm-block">
+                      <button className="btn btn-outline-primary">ga naar</button>
+                    </a>
                   </div>
                 </div>
               </div>
