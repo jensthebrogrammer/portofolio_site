@@ -57,21 +57,6 @@ Ensure you have the following installed:
 
 ---
 
-## 📂 Project Structure
-
-Here's a quick overview of the main files:
-
-```
-portfolio_site/
-├── src/
-│   ├── App.jsx        # Main layout and logic
-│   ├── main.jsx       # Entry point
-│   ├── App.css        # Custom styles
-│   └── components/    # Reusable components
-├── public/            # Static files
-├── package.json       # Project metadata and scripts
-└── README.md          # Project documentation
-```
 
 ---
 
@@ -81,6 +66,13 @@ portfolio_site/
 - **Vite**: Development server and build tool.
 - **Bootstrap**: For responsive layout and design.
 - **Custom CSS**: Enhancements and unique styles.
+
+---
+## 🔨 troubleshooting
+-problems with the libraries:
+when you add en new library make sure you run npm install again to make sure you have all dependancies installed.
+watch out though, when run this, it could cause another error. It probably has something to do with the .vite file in your project.
+just delete this file and it should work again. if you are not sure what to do, just paste the error into chatGPT, it usaly knows whats causing it.
 
 ---
 
