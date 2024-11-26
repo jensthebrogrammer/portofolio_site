@@ -32,7 +32,7 @@ export default function HuidigProject() {
         </div>
 
         <div className="d-xxl-none d-block mt-5">
-            <img src='\src\images\printscreen_webscraper2.png' className="img-fluid rounded-start img-huidig-project" />
+          <img src='\src\images\printscreen_webscraper2.png' className="img-fluid rounded-start img-huidig-project" />
         </div>
       </div>
     </section>

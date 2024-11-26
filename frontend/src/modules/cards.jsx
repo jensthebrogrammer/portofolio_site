@@ -7,7 +7,7 @@ export default function MijnProjecten() {
       <div className="container p-4 mt-5 pb-5">
         <h1 className="text-center pb-5">mijn projecten</h1>
         <div className="row justify-content-center">
-          <div className="col-6 d-flex justify-content-center p-0">
+          <div className="col-lg-6 col-12 my-3 d-flex justify-content-center p-0">
             <div className="card bg-dark">
               <div className="row">
                 <div className="col-5">
@@ -26,7 +26,7 @@ export default function MijnProjecten() {
             </div>
           </div>
 
-          <div className="col-6 d-flex justify-content-center p-0">
+          <div className="col-lg-6 col-12 my-3 d-flex justify-content-center p-0">
             <div className="card bg-dark">
               <div className="row">
                 <div className="col-5">
