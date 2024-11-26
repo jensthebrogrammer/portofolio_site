@@ -3,13 +3,13 @@ import React from "react";
 export default function Info() {
   return (
     <section id="info">
-      <div className="container w-80 pt-5 pb-5">
+      <div className="container con-cards w-80 pt-5 pb-5">
         <h1 className="text-center pb-0">Over mij</h1>
 
         <div id="carouselExample" className="carousel slide w-100">
           <div className="carousel-inner">
-            {/* First Slide */}
-            <div className="carousel-item active text-center">
+            {/* second Slide */}
+            <div className="carousel-item text-center">
               <div className="d-block widht-slides mx-auto">
                 <p className="fs-3 pt-3">Beschrijving</p>
                 <p className="fs-5 pb-5">
@@ -19,8 +19,8 @@ export default function Info() {
               </div>
             </div>
 
-            {/* Second Slide */}
-            <div className="carousel-item text-center">
+            {/* first Slide */}
+            <div className="carousel-item active text-center">
               <div className="d-block widht-slides mx-auto">
                 <p className="fs-3 pt-3">Opleiding</p>
                 <p className="fs-5 pb-3">

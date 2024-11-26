@@ -17,7 +17,7 @@ export default function MijnProjecten() {
                 <div className="col-7">
                   <div className="card-body">
                     <h3 className="card-title">Gorillas</h3>
-                    <p className="card-text">een klasiek spel geschreven in pyhton met als framework pygame.</p>
+                    <p className="card-text">Een klasiek spel geschreven in pyhton met als framework pygame.</p>
                     <p className="card-text pb-3">de code is opgebouwd in drie lagen. de BLL, de presentatie layer en de main layer</p>
                     <a href="https://github.com/jensthebrogrammer/gorillas-tisp"
                     className="d-none d-sm-block">
