@@ -14,12 +14,12 @@ export default function HuidigProject() {
             <h1 className="text-center mb-5">Weather site</h1>
 
             <div className="fs-5 mb-5">
-              Op dit moment ben ik bezig met een weer website bouwen. De bedoeling is dat ik data kan halen van 1 of meerdere weerstations en die wervolgens op mijn website kan weergeven. 
+              Op dit moment ben ik bezig met een weer website bouwen. De bedoeling is dat ik data ga halen bij een bestaande weersite en die vervolgens opslaag in een backend om te gebruiken in mijn website. 
             </div>
 
             <p className="fs-5 mb-5">
-              Het is mij al gelukt om een webscraper te bouwen voor de website "Buienalarm" en een backend te bouwen in Python die de data naar de frontend stuurt.
-              De volgende stap is een frontend webserver maken die de data mooi presenteerd.
+              Mijn project is al grotendeels klaar. Het kan data gaan ophalen van eender welke locatie en deze weergeven op een webpagina. Ook gaat de backend frequent 
+              data ophalen van geselecteerde locaties om voor die locaties de data veel sneller beschikbaar te hebeben.
             </p>
 
             <p className="fs-5 mb-5">

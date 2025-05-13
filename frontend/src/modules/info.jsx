@@ -39,7 +39,7 @@ export default function Info() {
               <div className="d-block widht-slides mx-auto">
                 <p className="fs-3 pt-3">Toekomst</p>
                 <p className="fs-5 pb-5">
-                  Ik ben op dit moment van plan om volgend jaar te beginnen aan een academische bachelor in Informatica. Tot nu toe heb ik deze richting enkel in Antwerpen gevonden, ik heb echter nog niet alles bekeken. Daarna ben ik van plan om een master te doen in Software Engineering. Momenteel ben ik extra wiskunde aan het studeren om dit idee te realiseren.
+                  Ik ben op dit moment van plan om volgend jaar te beginnen aan een academische bachelor in Informatica. Ik heb besloten om deze richting in Diepenbeek te gaan volgen. Daarna ben ik van plan om een master te doen in Software Engineering. Momenteel ben ik extra wiskunde aan het studeren om dit idee te realiseren.
                 </p>
 
                 <p className="fs-3 pt-3">Github</p>
